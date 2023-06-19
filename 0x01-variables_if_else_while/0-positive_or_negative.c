@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * main - entry point
+ * main - entry point, prints output to standard output
  * for every execution: a random value is assigned to variable n
- * prnt to see if variable n is positive or negative
+ * print to see if variable n is positive or negative
  * variable n will store a different value every time program is ran
  * don’t have to understand what rand, srand, RAND_MAX do.
  * The output of the program should be:
@@ -15,10 +15,11 @@
   *if the number is 0: is zero
   *if the number is less than 0: is negative
   *followed by a new line
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
+
 {
 	int n;
 
@@ -41,4 +42,5 @@ int main(void)
 
 
 	return (0);
+
 }
