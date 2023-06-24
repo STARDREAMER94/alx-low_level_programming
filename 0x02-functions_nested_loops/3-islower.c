@@ -2,7 +2,7 @@
 
 /**
  * _islower - a function that checks for lowercase character
- * @c - variable entered to be checked, type integer/char
+ * @c: variable entered to be checked, type integer/char
  * Return: 1 if c is lowercase, 0 otherwise
  * FYI: The standard library provides a similar function: islower
  * Run man islower to learn more.
