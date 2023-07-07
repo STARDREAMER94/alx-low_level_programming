@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strlen - a function that returns the length of a string
+ * print_rev - Write a function that prints a string, in reverse,
+ * followed by a new line.
  * @s: inputted pointer value
  * Return: value of type integer
  */
