@@ -3,7 +3,7 @@
 /**
  * _puts - a function that prints a string, followed by a new line, to stdout
  * FYI: The standard library provides a similar function: puts
- * @str - inputted pointer/array variable
+ * @str: inputted pointer/array variable
  * Return: void, none
  */
 
