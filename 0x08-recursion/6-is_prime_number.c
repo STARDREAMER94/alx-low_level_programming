@@ -1,12 +1,13 @@
 #include "main.h"
 
+int isPrime(int x, int y);
+
 /**
  * is_prime_number - a function that returns 1 if the input integer is a
  *   a prime number, otherwise return 0 for non-prime numbers
  * @n: number to be observed
  * Return: integer data type. (0 or 1)
  */
-int isPrime(int x, int y);
 
 int is_prime_number(int n)
 {
@@ -23,7 +24,7 @@ int is_prime_number(int n)
 
 int isPrime(int x, int y)
 {
-	int n;
+	int z;
 
 	if (x <= 1)
 	{
@@ -46,8 +47,8 @@ int isPrime(int x, int y)
 		return (1);
 	}
 
-	n = isPrime(x, y + 1);
-	n = 1;
+	z = isPrime(x, y + 1);
+	z = 1;
 
-	return (n);
+	return (z);
 }
