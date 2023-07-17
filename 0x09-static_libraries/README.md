@@ -10,3 +10,7 @@ Don’t forget to push your main.h file to your repository. It should at least c
 "1. Without libraries what have we? We have no past and no future"
 
 Create a script called "create_static_lib.sh" that creates a static library called liball.a from all the .c files that are in the current directory.
+remember how to make bash scrpit file from shell script files.
+also remember to make "create_static_lib.sh" - an executable file using "chmod u+x" shellscrpit permissions
+NB!!! REMEMBER PAST WORK
+
