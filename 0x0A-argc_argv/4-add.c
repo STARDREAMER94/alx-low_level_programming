@@ -21,7 +21,12 @@ int main(int argc, char *argv[])
 	unsigned int j, add = 0;
 	int i;
 
-	if (argc > 1)
+	
+	if (argc == 1)
+	{
+		printf("0\n");
+	}		
+	else if (argc > 1)
 	{
 
 	for (i = 1; i < argc; i++)
@@ -39,8 +44,8 @@ int main(int argc, char *argv[])
 		argv[i] += 1;
 		
 	}
-	}
 	printf("%i\n", add);
+	}
 
 	return (0);
 }
