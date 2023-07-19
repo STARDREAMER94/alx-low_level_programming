@@ -36,6 +36,7 @@ int main(int argc, char *argv[])
 		}
 		
 		add += atoi(argv[i]);
+		argv[i] += 1;
 		
 	}
 	}
