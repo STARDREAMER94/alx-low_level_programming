@@ -6,15 +6,12 @@
  *               operation asked by the user
  * You’re not allowed to declare any other function.
  * @s: the operator passed as argument to the program
- * @int: input 1
- * @int: input 2
  * Return: integer value
  */
 int (*get_op_func(char *s))(int, int)
 {
 	int i = 0;
-	op_t ops[] =
-	{
+	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
