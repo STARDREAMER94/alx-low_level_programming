@@ -1,12 +1,11 @@
 #include "lists.h"
 
 /**
- * listint_len - a function that returns the number of elements in a linked listint_t list
+ * listint_len - a function that returns the number of elements in a
+ *               linked listint_t list
  * @h: pointer to struct node
  * Return: size_t (unsigned int)
  */
-
-listint_t *current = NULL;
 
 size_t listint_len(const listint_t *h)
 {
