@@ -6,6 +6,8 @@
  * Return: size_t (unsigned int)
  */
 
+listint_t *current = NULL;
+
 size_t listint_len(const listint_t *h)
 {
 	size_t k;
