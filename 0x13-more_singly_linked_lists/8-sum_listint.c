@@ -7,14 +7,14 @@
  */
 int sum_listint(listint_t *head)
 {
-int sum = 0;
-listint_t *holdhead = head;
+	int sum = 0;
+	listint_t *holdhead = head;
 
-while (temp)
-{
-sum += holdhead->n;
-holdhead = holdhead->next;
-}
+	while (temp)
+	{
+		sum += holdhead->n;
+		holdhead = holdhead->next;
+	}
 
-return (sum);
+	return (sum);
 }
